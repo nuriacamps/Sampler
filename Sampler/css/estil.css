@@ -1,0 +1,314 @@
+.grid {
+    display: grid;
+    grid-template-areas: " un dos tres quatre cinc sis set vuit nou "
+        " un dos tres quatre cinc sis set vuit nou ";
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    width: 90vw;
+    height: 40vh;
+
+}
+
+
+#un {
+    grid-area: un;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#dos {
+    grid-area: dos;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#tres {
+    grid-area: tres;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#quatre {
+    grid-area: quatre;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#cinc {
+    grid-area: cinc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#sis {
+    grid-area: sis;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#set {
+    grid-area: set;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#vuit {
+    grid-area: vuit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#nou {
+    grid-area: nou;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#pistaun {
+    width: 8vw;
+    height: 8vw;
+    background-color: #CC33CC;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#pistaun:hover {
+    opacity: 0.5;
+}
+
+#pistados {
+    width: 8vw;
+    height: 8vw;
+    background-color: #66CCFF;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#pistados:hover {
+    opacity: 0.5;
+}
+
+#pistatres {
+    width: 8vw;
+    height: 8vw;
+    background-color: #00FF99;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#pistatres:hover {
+    opacity: 0.5;
+}
+
+#pistaquatre {
+    width: 8vw;
+    height: 8vw;
+    background-color: #FFFF66;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#pistaquatre:hover {
+    opacity: 0.5;
+}
+
+#pistacinc {
+    width: 8vw;
+    height: 8vw;
+    background-color: #FFCC33;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#pistacinc:hover {
+    opacity: 0.5;
+}
+
+#pistasis {
+    width: 8vw;
+    height: 8vw;
+    background-color: #FF6699;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#pistasis:hover {
+    opacity: 0.5;
+}
+
+#pistaset {
+    width: 8vw;
+    height: 8vw;
+    background-color: #993366;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#pistaset:hover {
+    opacity: 0.5;
+}
+
+#pistavuit {
+    width: 8vw;
+    height: 8vw;
+    background-color: #FF33CC;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#pistavuit:hover {
+    opacity: 0.5;
+}
+
+
+#pistanou {
+    width: 8vw;
+    height: 8vw;
+    background-color: #FF3366;
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+#pistanou:hover {
+    opacity: 0.5;
+}
+
+body {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.botoloop {
+    width: 50%;
+    height: 40%;
+    background-repeat: no-repeat;
+    background-image: url(../img/loop2.png);
+    background-size: contain;
+    cursor: pointer;
+    
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 10px;
+    border-radius: 10px;
+    background: white;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin: 10%
+}
+
+.slider:hover {
+    opacity: 0.5;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1vw;
+    height: 1vw;
+    background: url(../img/manejador3.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.botons {
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.damunt {
+    width: 90vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%
+}
+
+.generallogo {
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.video {
+    width: 60%;
+    height: 10%;
+}
+
+.logo {
+    width: 5vw;
+    height: 5vw;
+}
+
+.play {
+    width: 5vw;
+    height: 5vw;
+}
+
+.pause {
+    width: 5vw;
+    height: 5vw;
+}
+
+#pantalla {
+    width: 10%;
+    height: 10%;
+}
+
+#vid {
+    width: 15px;
+    height: auto;
+}
+
+
+
+
+
+#contdiv {
+    width: 100%;
+    height: 900%;
+    
+
+}
+
+
